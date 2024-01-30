@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    >
+    <ImageView
+        android:id="@+id/poster_v"
+        android:layout_gravity="center"
+        android:layout_width="380dp"
+        android:layout_height="380dp"/>
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:text="Movie title"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/year_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="Movie year"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>
